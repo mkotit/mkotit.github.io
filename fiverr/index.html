@@ -75,9 +75,14 @@ body {
 	color:#FFF;
 	text-decoration:none;
 	line-height:43px;
-	font-family:'Oswald', Helvetica;
+	font-family: 'Lobster', cursive;
 	display: block;
 	margin: 30px;
+    outline: none;
+    font-size: 26px;
+	text-shadow: 0 1px 2px rgba(0,0,0,0.75);
+
+    
 }
 .push_button:before {
 	background:#f0f0f0;
@@ -95,7 +100,7 @@ body {
 	content: "";
 	left: -6px; right: -6px;
 	top: -6px; bottom: -10px;
-	z-index: -1;
+	z-index: -1;	text-shadow: 0 1px 2px rgba(0,0,0,0.75);
 }
 
 .push_button:active {
@@ -126,6 +131,8 @@ body {
 	-webkit-box-shadow:0 1px 0 rgba(255, 255, 255, .5) inset, 0 -1px 0 rgba(255, 255, 255, .1) inset, 0 4px 0 #AD4257, 0 4px 2px rgba(0, 0, 0, .5);
 	-moz-box-shadow:0 1px 0 rgba(255, 255, 255, .5) inset, 0 -1px 0 rgba(255, 255, 255, .1) inset, 0 4px 0 #AD4257, 0 4px 2px rgba(0, 0, 0, .5);
 	box-shadow:0 1px 0 rgba(255, 255, 255, .5) inset, 0 -1px 0 rgba(255, 255, 255, .1) inset, 0 4px 0 #AD4257, 0 4px 2px rgba(0, 0, 0, .5);
+    width: 300px;
+    height: 70px;
 }
 
 .red:hover {
@@ -154,7 +161,10 @@ body {
 	-webkit-box-shadow:0 1px 0 rgba(255, 255, 255, .5) inset, 0 -1px 0 rgba(255, 255, 255, .1) inset, 0 4px 0 #338A94, 0 4px 2px rgba(0, 0, 0, .5);
 	-moz-box-shadow:0 1px 0 rgba(255, 255, 255, .5) inset, 0 -1px 0 rgba(255, 255, 255, .1) inset, 0 4px 0 #338A94, 0 4px 2px rgba(0, 0, 0, .5);
 	box-shadow:0 1px 0 rgba(255, 255, 255, .5) inset, 0 -1px 0 rgba(255, 255, 255, .1) inset, 0 4px 0 #338A94, 0 4px 2px rgba(0, 0, 0, .5);
+    width: 300px;
+    height: 70px;
 }
+        
 
 .blue:hover {
 	background: #48C6D4;
@@ -254,7 +264,7 @@ html, body {
 		<div class="centerer">
     <button id="x11as7" class="push_button red">Start Chatbot Demo</button>
     <button id="asiuw5" class="push_button blue">Request a Quote</button>
-    <button id="hide" class="buttonKotit">Hide!</button>
+    <button id="hide" class="push_button red">Hide!</button>
 	</div>
 	</div>
         
