@@ -1,0 +1,25 @@
+<head>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+</head>
+
+<body>
+    <script >
+    $(function() {
+        $("#go").click(function() {
+           quriobot.start("qbtests/9nJaZmp92VrpvxPR")
+        })
+        $("#back").click(function() {
+            quriobot.start("qbtests/BNYyPbDGPxEe3lVQ")
+        })
+        $("#hide").click(function() {
+            quriobot.hide_frame()
+        })
+    })
+    </script>
+
+    <button id="go">Bot 1!</button>
+    <button id="back">Bot 2!</button>
+    <button id="hide">Hide!</button>
+
+    <script type="text/javascript" src="https://quriobot.com/qb/widget/qbtests/9nJaZmp92VrpvxPR"></script>
+</body>
